@@ -1,0 +1,1 @@
+This project is an on-screen caluculator, with add, subtract, multiply, and divide functionalities.

@@ -1,10 +1,84 @@
-.header,.footer{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.footer{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
     text-align: center;
-    background-color: coral;
-    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    /* background-color: rgb(245, 236, 243); */
+    background:linear-gradient(to right, rgb(253, 253, 248),rgb(240,230,240));
+    margin-top: 30px;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:2px solid;
+    border-radius:10px;
+    background-color: rgba(249, 154, 176, 0.806);
+    width:350px;
+    padding:20px;
+    
 }
 
 .display{
-    background-color: pink;
+    width: 300px;
+    border:2px solid;
+    border-radius: 5px;
+    background-color: rgba(255, 233, 239, 0.849);
+    padding:10px 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    
 }
+
+.display .expression{
+    min-height: 20px;
+    font-size: 20;
+}
+
+.display .result{
+    min-height: 40px;
+    font-size: 40px;
+}
+
+button{
+    border:2px solid;
+    border-radius: 5px;
+    padding:20px 25px;
+    font-size: 20px;
+    background-color: rgb(251, 232, 232); 
+}
+
+.buttons{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:5px;
+    
+}
+
+.clear{
+    background-color: rgba(192, 250, 238, 0.891);
+}
+.delete{
+    background-color: rgba(254, 241, 162, 0.957);
+}
+.operator,.evaluate{
+    background-color: rgb(252, 186, 158); 
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 500px;
+}
+
+

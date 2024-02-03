@@ -12,7 +12,7 @@ function multiply(a,b){
 
 function divide(a,b){
     if(b==0){
-        return "error:cannot divide by 0";
+        alert("Can't divide by 0!");
     }else{
         return a/b;
         //make sure result is 3 decimal places at most

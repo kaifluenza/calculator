@@ -15,7 +15,6 @@ function divide(a,b){
         alert("Can't divide by 0!");
     }else{
         return a/b;
-        //make sure result is 3 decimal places at most
     }
 }
 
